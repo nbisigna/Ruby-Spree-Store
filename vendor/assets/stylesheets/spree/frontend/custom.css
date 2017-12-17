@@ -12,6 +12,11 @@ a:hover {
   text-decoration: none;
 }
 
+.form.nav-bar-form:hover{
+  background-color: black;
+  cursor: pointer;
+}
+
 #logo{
   margin: auto;
   text-align: center;
@@ -43,11 +48,15 @@ div#spree-header {
 
 #spree-header .nav a:hover {
   color: black;
+  background: white;
 }
 
 #spree-header .nav a:active{
   color: white;
+  background: black;
 }
+
+
 
 a:hover {
   background-color: white;
@@ -87,6 +96,10 @@ pointer-events: none;
 
 ul.pagination li a{
   color: black;
+}
+
+ul.pagination {
+  margin: auto;
 }
 
 

@@ -18,5 +18,5 @@
 
 .byebug_history
 
-/database.yml
-/secrets.yml
+config/database.yml
+config/secrets.yml

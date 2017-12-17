@@ -4,6 +4,12 @@
       <li id="home-link" data-hook><%= link_to Spree.t(:home), spree.root_path %></li>
     </ul>
 
+<ul class="nav navbar-nav" data-hook>
+    <li id="search-bar" data-hook>
+      <%= render partial: 'spree/shared/search' %>
+    </li>
+</ul>
+
 <ul class="nav navbar-nav navbar-right" data-hook>
 <% if spree_current_user %>
   <li><%= link_to Spree.t(:my_account), spree.account_path %></li>
